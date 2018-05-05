@@ -12,7 +12,11 @@ public class Player : NetworkBehaviour {
 	void Start () {
 		networkTransform = GetComponent<NetworkTransform>();
 	}
-	
+
+	public override void OnStartLocalPlayer() {
+		GetComponentInChildren<Camera>().enabled = true;
+	}
+
 	void Update () {
 		if(!isLocalPlayer) return;
 
