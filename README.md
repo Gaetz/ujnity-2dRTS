@@ -1,2 +1,2 @@
-# ujnity-2dRTS
-A 2d RTS as a training
+# unity-2dRTS
+A 2d RTS as a network training
